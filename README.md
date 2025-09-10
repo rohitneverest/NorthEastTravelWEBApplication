@@ -3,35 +3,29 @@ Travelease 🌍✈️
 Travelease ---->  Spring Boot + JSP-based Travel Booking Web Application.
 It provides itinerary details for Northeast India destinations, supports user authentication with BCrypt, and integrates PayPal for payments.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
 
 🔐 User registration & login (passwords stored securely with BCrypt)
-
 🗺️ Itinerary pages for different destinations (Agartala, Dawki, Tawang, etc.)
-
 📍 State & city-wise travel information
-
 💳 PayPal Sandbox integration for payments
-
 📦 Booking system with success, failure & validation pages
-
 📸 Gallery, reviews, and contact form
-
 🎨 JSP + CSS for responsive frontend
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tech Stack
 
 Backend: Spring Boot, Spring MVC, Spring Security (BCrypt)
-
 Frontend: JSP, CSS, JS
-
 Database: MySQL with JPA/Hibernate
-
 Payments: PayPal REST API (Sandbox Mode)
-
 Build Tool: Maven
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📂 Project Structure
+
 src/main/java/com/example/travelease/
    ├─ config/           # Security & PayPal configuration
    ├─ controller/       # Controllers (Home, Itinerary, PayPal)
@@ -52,11 +46,13 @@ src/main/webapp/WEB-INF/views/
    ├─ Validation/       # Success & error views
    └─ index.jsp, login.jsp, Registration.jsp, etc.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone https://github.com/your-username/travelease.git
 cd travelease
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2️⃣ Configure Database (MySQL)
 
 Create the database:
@@ -72,17 +68,21 @@ spring.datasource.password=YOUR_DB_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3️⃣ Configure PayPal Sandbox
+
 paypal.client.id=YOUR_SANDBOX_CLIENT_ID
 paypal.client.secret=YOUR_SANDBOX_SECRET
 paypal.mode=sandbox
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4️⃣ Run the application
 mvn spring-boot:run
 
 
 App will be running at:
 👉 http://localhost:8081/
+
 
 🔑 Default Routes
 
@@ -94,22 +94,21 @@ App will be running at:
 
 /payment → Payment Home Page
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔒 Security
 
 User passwords are hashed using BCrypt
-
 Spring Security handles authentication and authorization
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ Future Improvements
 
 JWT-based authentication
-
 Email booking confirmations
-
 Docker support
-
 Deployment on AWS / Heroku
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📸 Screenshots
 
 (I will add screenshots of the application here later)

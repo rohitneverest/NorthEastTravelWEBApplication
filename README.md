@@ -55,11 +55,6 @@ src/main/webapp/WEB-INF/views/
    ├─ Validation/       # Success & error views
    └─ index.jsp, login.jsp, Registration.jsp, etc.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone https://github.com/your-username/travelease.git
-cd travelease
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2️⃣ Configure Database (MySQL)

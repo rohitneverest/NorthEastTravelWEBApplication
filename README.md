@@ -108,7 +108,10 @@ Email booking confirmations
 Docker support
 Deployment on AWS / Heroku
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------
 📸 Screenshots
 
+<img width="1920" height="1071" alt="tt" src="https://github.com/user-attachments/assets/f5ad008a-6dce-464c-ae5a-07ae02918c26" />
+   
 (I will add screenshots of the application here later)

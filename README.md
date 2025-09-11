@@ -5,7 +5,7 @@
 
 TRAVELEASE🌍✈️
   
-Travelease ---->  Spring Boot + JSP-based Travel Booking Web Application.
+Travelease ---->  Java + Spring Boot + JSP-based Travel Booking Web Application.
 It provides itinerary details for Northeast India destinations, supports user authentication with BCrypt, integrates PayPal for payments and 
 features a Botpress-powered chatbot for instant travel assistance.
 
@@ -24,6 +24,7 @@ features a Botpress-powered chatbot for instant travel assistance.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tech Stack
 
+Language: Java
 Backend: Spring Boot, Spring MVC, Spring Security (BCrypt)
 Frontend: JSP, CSS, JS
 Database: MySQL with JPA/Hibernate

@@ -1,5 +1,10 @@
-Travelease 🌍✈️
+                                                                 TRAVELEASE🌍✈️
 
+<img width="1920" height="1071" alt="tt" src="https://github.com/user-attachments/assets/f5ad008a-6dce-464c-ae5a-07ae02918c26" />
+
+
+TRAVELEASE🌍✈️
+  
 Travelease ---->  Spring Boot + JSP-based Travel Booking Web Application.
 It provides itinerary details for Northeast India destinations, supports user authentication with BCrypt, and integrates PayPal for payments.
 
@@ -111,7 +116,5 @@ Deployment on AWS / Heroku
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------
 📸 Screenshots
-
-<img width="1920" height="1071" alt="tt" src="https://github.com/user-attachments/assets/f5ad008a-6dce-464c-ae5a-07ae02918c26" />
    
 (I will add screenshots of the application here later)

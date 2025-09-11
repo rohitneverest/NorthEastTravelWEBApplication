@@ -6,7 +6,8 @@
 TRAVELEASE🌍✈️
   
 Travelease ---->  Spring Boot + JSP-based Travel Booking Web Application.
-It provides itinerary details for Northeast India destinations, supports user authentication with BCrypt, and integrates PayPal for payments.
+It provides itinerary details for Northeast India destinations, supports user authentication with BCrypt, integrates PayPal for payments and 
+features a Botpress-powered chatbot for instant travel assistance.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
@@ -18,6 +19,7 @@ It provides itinerary details for Northeast India destinations, supports user au
 📦 Booking system with success, failure & validation pages
 📸 Gallery, reviews, and contact form
 🎨 JSP + CSS for responsive frontend
+🤖 Botpress-powered chatbot for instant travel assistance
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tech Stack
@@ -27,6 +29,7 @@ Frontend: JSP, CSS, JS
 Database: MySQL with JPA/Hibernate
 Payments: PayPal REST API (Sandbox Mode)
 Build Tool: Maven
+chatbot: Botpress
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📂 Project Structure
@@ -106,6 +109,17 @@ User passwords are hashed using BCrypt
 Spring Security handles authentication and authorization
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🤖 Chatbot Integration (Botpress)
+
+Developed a conversational chatbot using Botpress.
+Trained the bot with custom knowledge base (FAQs, travel info, booking queries).
+Hosted the bot on Botpress Cloud and integrated it into the Travelease app via an embed link.
+Provides real-time assistance to users for:
+-->Destination details,Booking guidance,Payment queries,General support
+
+Enhances the user experience by offering 24/7 automated travel assistance.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ Future Improvements
 
 JWT-based authentication
@@ -113,8 +127,7 @@ Email booking confirmations
 Docker support
 Deployment on AWS / Heroku
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📸 Screenshots
    
 (I will add screenshots of the application here later)
